@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@300;400;500&display=swap');
+
+*{
+    padding: 0px 0px;
+    margin: 0px 0px;
+    box-sizing: border-box;
+    font-family: 'Asap', sans-serif;
+}
+main{
+    width: 90%;
+    margin: 0px auto;
+}
+header{
+    display: flex;
+}
+h1{
+    position: relative;
+    font-size: 22px;
+    margin: 15px 0px;
+}
+h1::after{
+    content: '';
+    position: absolute;
+    border-bottom: 1px solid #e5e5e5;
+    margin-left: 20px;
+    width: 207%;
+    height: 100%;
+    top: -15px;
+
+}
+h2{
+    font-weight: 500;
+}
+.lists-city{
+    list-style: none;
+    display: flex;
+}
+.city{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 60px;
+    background-color: #e5e5e5;
+    margin-right: 15px;
+    border-radius: 35px;
+}
+.city:hover{
+    background-color: #af7b38;
+    color: white;
+}
+.city .city-item, .city .city-content{
+    width: 100%;
+    text-align: center;
+}
+.city-item{
+    font-weight: 600;
+    padding-top: 6px;
+}
+.city-content{
+    padding-bottom: 6px;
+    font-size: 13px;
+}
+.city .city-content{
+    font-style: italic;
+}
+.container{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.district{
+    width: 460px;
+    height: 300px;
+    position: relative;
+    border-radius: 10px;
+    background-color: blue;
+    padding: 30px 30px;
+    color: white;
+    margin: 0px 30px 30px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(0.5);
+}
+.image-item1{
+    background-image: url('../assets/imgs/image1.jpg');
+}
+.image-item2{
+    background-image: url('../assets/imgs/image2.jpg');
+}
+.image-item3{
+    background-image: url('../assets/imgs/image3.jpeg');
+}
+.image-item4{
+    background-image: url('../assets/imgs/image4.jpg');
+}
+.image-item5{
+    background-image: url('../assets/imgs/image5.jpg');
+}
+.image-item6{
+    background-image: url('../assets/imgs/image6.jpg');
+}
+.info{
+    display: flex;
+    position: absolute;
+    bottom: 30px;
+}
+.quantity{
+    font-weight: 900;
+    margin-right: 5px;
+}

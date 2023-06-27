@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@300;600&display=swap');
+*{
+    padding: 0px 0px;
+    margin: 0px 0px;
+    box-sizing: border-box;
+    font-family: 'Asap', sans-serif;
+
+}
+.container{
+    margin: 30px auto;
+    height: 450px;
+    width: 1440px;
+    object-fit: cover;
+}
+.info-project{
+    display: block;
+    position: relative;
+    width: 600px;
+    height: 200px;
+    background-color: #e0dddd;
+    opacity: 0.9;
+    border-radius: 10px;
+    top: -280px;
+    left: 200px;
+}
+.info-content{
+    position: relative;
+    padding: 30px 20px;
+}
+h1{
+    color: #bf4240;
+    font-weight: 600;
+}
+p{
+    margin: 5px 0px;
+    font-weight: 300;
+    color: #3f3424;
+}
+.address{
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+}
+.address > .icon{
+    margin-right: 8px;
+}
+.price{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    background-color: #bf4240;
+    left: 300px;
+    top: 175px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5px;
+    color: white;
+}
